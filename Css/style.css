@@ -1,0 +1,161 @@
+
+body {
+    margin: 0px;
+    background-color:aqua;
+}
+  
+.top-container {
+    width: 100%;
+    color: white;
+    align-items: center;
+}
+.Player-Conputer{
+      width:70%;
+      margin: 0px auto;
+      padding-top: 60px;
+      display: flex;
+      align-content: center;
+      justify-content: space-between;
+}
+.player{
+      width:25%;
+      background-color: black;
+      border-radius: 10px;
+      margin: 0px auto;
+      padding-top: 20px;
+      font-size: 35px;
+      font-weight: bolder;
+      text-align: center;
+}
+.computer{
+    width:25%;
+    background-color: black;
+    border-radius: 10px;
+    margin: 0px auto;
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: center;
+}
+.select{
+    width:70%;
+    margin: 0px auto;
+    padding-top: 20px;
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-between;
+}
+.playerSelect{
+    width:25%;
+    height: 50px;
+    background-color:white;
+    color:black;
+    border-radius: 10px;
+    padding-top: 20px;
+    margin: 0px auto;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.computerSelect{
+    width:25%;
+    height: 50px;
+    background-color:white;
+    color: black;
+    border-radius: 10px;
+    padding-top: 20px;
+    margin: 0px auto;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.score{
+    width:70%;
+    margin: 0px auto;
+    padding-top: 50px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.playerScore{
+    width:25%;
+    background-color: black;
+    border-radius: 10px;
+    margin: 0px auto;
+    padding: 10px 0px;
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: center;
+}
+.computerScore{
+  width:25%;
+  background-color: black;
+  border-radius: 10px;
+  margin: 0px auto;
+  padding: 10px 0px;
+  font-size: 35px;
+  font-weight: bolder;
+  text-align: center;
+}
+.score2{
+    width:70%;
+    margin: 0px auto;
+    padding-top: 20px;
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-between;
+}
+.playerScore2{
+    width:25%;
+    height: 50px;
+    background-color:white;
+    color: black;
+    border-radius: 10px;
+    padding-top: 20px;
+    margin: 0px auto;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.computerScore2{
+    width:25%;
+    height: 50px;
+    background-color:white;
+    color: black;
+    border-radius: 10px;
+    padding-top: 20px;
+    margin: 0px auto;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+  .winner{
+    width:70%;
+    margin: 0px auto;
+    padding-top: 50px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.winner-list{
+    width:25%;
+    background-color: black;
+    border-radius: 10px;
+    margin: 0px auto;
+    padding: 10px 0px;
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: center;
+    display: none;
+}
+.winner-name{
+  width:25%;
+  background-color: black;
+  border-radius: 10px;
+  margin: 0px auto;
+  padding: 10px 0px;
+  font-size: 35px;
+  font-weight: bolder;
+  text-align: center;
+  display: none;
+}
