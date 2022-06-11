@@ -3,16 +3,16 @@ body {
     margin: 0px;
     background-color:aqua;
 }
-  
+
 .top-container {
     width: 100%;
     color: white;
     align-items: center;
 }
-.Player-Conputer{
+.Player-Computer{
       width:70%;
       margin: 0px auto;
-      padding-top: 60px;
+      padding-top: 30px;
       display: flex;
       align-content: center;
       justify-content: space-between;
@@ -39,7 +39,7 @@ body {
 .select{
     width:70%;
     margin: 0px auto;
-    padding-top: 20px;
+    padding-top: 30px;
     display: flex;
     padding-top: 50px;
     justify-content: space-between;
@@ -71,7 +71,7 @@ body {
 .score{
     width:70%;
     margin: 0px auto;
-    padding-top: 50px;
+    padding-top: 40px;
     display: flex;
     align-content: center;
     justify-content: space-between;
@@ -99,9 +99,8 @@ body {
 .score2{
     width:70%;
     margin: 0px auto;
-    padding-top: 20px;
     display: flex;
-    padding-top: 50px;
+    padding-top: 40px;
     justify-content: space-between;
 }
 .playerScore2{
@@ -129,10 +128,10 @@ body {
     text-align: center;
 }
 
-  .winner{
+.winner{
     width:70%;
     margin: 0px auto;
-    padding-top: 50px;
+    padding-top: 30px;
     display: flex;
     align-content: center;
     justify-content: space-between;
@@ -158,4 +157,43 @@ body {
   font-weight: bolder;
   text-align: center;
   display: none;
+}
+.play{
+    display:flex;
+    flex-direction: column;
+    padding-top: 30px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.click{
+    background-color: blueviolet;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.choice{
+    background-color: blueviolet;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    /* display: none; */
+}
+.option{
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-around;
+    padding-right: 30px;
+    display: none;
+}
+
+.hidden{
+    display: none;
+}
+.play h2{
+    color: black;
 }
